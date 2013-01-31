@@ -39,16 +39,35 @@ One call this stuff has been installed, it's time to choose what you really want
   * just test this bloody thingy
   * considering to do more with **ffmpeg** later on
 
-In the very first case, you might install just the minimum required to make this demo work:
-
-    brew install ffmpeg --enable-libx264 --enable-libtheora --enable-libvorbis --enable-libvpx
-
-For the second point in the previous list, you might want to install a bit more:
-
-    brew install ffmpeg --enable-libx264 --enable-libfaac --enable-libmp3lame --enable-libxvid --enable-libfreetype --enable-libtheora --enable-libvorbis --enable-libvpx --enable-librtmp --enable-libopencore-amrnb --enable-libvo-aacenc --enable-libass --enable-ffplay --enable-libspeex --enable-libschroedinger --enable-libfdk-aac --enable-openssl --enable-libopus
-
-Your choice :-)
+It doesn't matter! I had actually so many troubles trying to shrink dependencies that I ended up including everything!
 
     brew install ffmpeg --with-tools --with-openssl --with-openjpeg --with-libass --with-opus --with-opencore-amr --with-freetype --with-schroedinger --with-ffplay --with-rtmpdump --with-theora --with-libvorbis --with-fdk-aac --with-libvo-aacenc --with-libvpx
 
-### gifsicle
+If you compiled manually, this would be a proper list of arguments:
+
+    brew install ffmpeg --enable-libx264 --enable-libfaac --enable-libmp3lame --enable-libxvid --enable-libfreetype --enable-libtheora --enable-libvorbis --enable-libvpx --enable-librtmp --enable-libopencore-amrnb --enable-libvo-aacenc --enable-libass --enable-ffplay --enable-libspeex --enable-libschroedinger --enable-libfdk-aac --enable-openssl --enable-libopus
+
+While in theory, in my opinion, this should be enough!
+
+    brew install ffmpeg --enable-libx264 --enable-libtheora --enable-libvorbis --enable-libvpx
+
+Feel free to waste time figuring out the bare necessities for this and I'll be happy to update this page.
+
+However, [this page has been helpful](http://ffmpeg.org/trac/ffmpeg/wiki/MacOSXCompilationGuide), but I am sure you won't need it ;-)
+
+#### gifsicle
+This is the last dependency we need to have the whole environment ready to do funny things for us.
+
+    brew install gifsicle
+
+Or you can go [directly in the main page](http://www.lcdf.org/gifsicle/) and try your way to install it.
+
+#### Ready, Set, GO!
+If everything has been installed successfully, it's time to write in your terminal 2 more things:
+
+    ifconfig
+    polpetta
+
+The reason `ifconfig` is needed is that you might want to test from a device with **Opera Mobile** browser or from Desktop **Chrome Canary**, **Firefox Nightly** or **Opera Next**, these work more or less, where *less* means that final result is without the audio.
+
+Reach `http://0.0.0.0:1337/` page and enjoy this absolutely experimental Vine like application for Web: **Wine**

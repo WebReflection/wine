@@ -10,9 +10,11 @@ experimental(window,    "Worker",       1);
 this.onload = function () {
 
   var
-    seconds = 3,
-    fps = 15,
-    quality = 95,
+    // CONFIGURATION
+    seconds = 6,  // seconds pre movie
+    fps = 15,     // Frames Per Seconds
+    quality = 95, // JPEG Quality, when supported
+
     video = document.querySelector("video"),
     progress = document.querySelector("progress"),
     canvas = document.createElement("canvas"),
