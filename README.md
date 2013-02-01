@@ -1,5 +1,7 @@
 [Vine](http://vine.co) for the Web? Sure: **Wine**! Highly experimental, partially unusable, totally awesome!
 
+[!preview](wine.png)
+
 ### Setup
 In order to have a proper test environment there are few things needed.
 
