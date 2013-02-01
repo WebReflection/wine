@@ -45,7 +45,10 @@ One call this stuff has been installed, it's time to choose what you really want
 
 It doesn't matter! I had actually so many troubles trying to shrink dependencies that I ended up including everything!
 
-    brew install ffmpeg --with-tools --with-openssl --with-openjpeg --with-libass --with-opus --with-opencore-amr --with-freetype --with-schroedinger --with-ffplay --with-rtmpdump --with-theora --with-libvorbis --with-fdk-aac --with-libvo-aacenc --with-libvpx
+    brew install ffmpeg --with-tools --with-openssl --with-openjpeg --with-libass --with-opus
+                        --with-opencore-amr --with-freetype --with-schroedinger --with-ffplay
+                        --with-rtmpdump --with-theora --with-libvorbis --with-fdk-aac
+                        --with-libvo-aacenc --with-libvpx
 
 If you compiled manually, this would be a proper list of arguments:
 
