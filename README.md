@@ -68,6 +68,35 @@ If everything has been installed successfully, it's time to write in your termin
     ifconfig
     polpetta
 
-The reason `ifconfig` is needed is that you might want to test from a device with **Opera Mobile** browser or from Desktop **Chrome Canary**, **Firefox Nightly** or **Opera Next**, these work more or less, where *less* means that final result is without the audio.
+The reason `ifconfig` is there is that you might want to know the current network IP address in order to test from a device via Wi-Fi connection and with **Opera Mobile** browser or, from Desktop, with **Chrome Canary**, **Firefox Nightly** or **Opera Next** again.
 
-Reach `http://0.0.0.0:1337/` page and enjoy this absolutely experimental Vine like application for Web: **Wine**
+These work, more or less, where *less* means that final result might be without the audio.
+
+Reach `http://0.0.0.0:1337/` page and enjoy this absolutely experimental [Vine](http://vine.co) like application for Web: **Wine**
+
+### License
+This repository is under Mit Style license:
+
+    Copyright (C) 2013 by Andrea Giammarchi, @WebReflection
+
+    Permission is hereby granted, free of charge, to any person obtaining a copy
+    of this software and associated documentation files (the "Software"), to deal
+    in the Software without restriction, including without limitation the rights
+    to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+    copies of the Software, and to permit persons to whom the Software is
+    furnished to do so, subject to the following conditions:
+
+    The above copyright notice and this permission notice shall be included in
+    all copies or substantial portions of the Software.
+
+    THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+    IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+    FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+    AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+    LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+    OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+    THE SOFTWARE.
+
+The Recordjs project is developed by [mattdiamond](https://github.com/mattdiamond).
+
+You will find details about ffmpeg and gifsicle license in respective pages.
