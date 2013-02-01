@@ -1,4 +1,4 @@
-[Vine](http://vine.co) for the Web? Sure: **Wine**, Highly experimental, partially unusable, totally awesome!
+[Vine](http://vine.co) for the Web? Sure: **Wine**! Highly experimental, partially unusable, totally awesome!
 
 ### Setup
 In order to have a proper test environment there are few things needed.
