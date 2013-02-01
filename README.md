@@ -49,7 +49,11 @@ It doesn't matter! I had actually so many troubles trying to shrink dependencies
 
 If you compiled manually, this would be a proper list of arguments:
 
-    brew install ffmpeg --enable-libx264 --enable-libfaac --enable-libmp3lame --enable-libxvid --enable-libfreetype --enable-libtheora --enable-libvorbis --enable-libvpx --enable-librtmp --enable-libopencore-amrnb --enable-libvo-aacenc --enable-libass --enable-ffplay --enable-libspeex --enable-libschroedinger --enable-libfdk-aac --enable-openssl --enable-libopus
+    brew install ffmpeg --enable-libx264 --enable-libfaac --enable-libmp3lame --enable-libxvi 
+                        --enable-libfreetype --enable-libtheora --enable-libvorbis --enable-libvpx
+                        --enable-librtmp --enable-libopencore-amrnb --enable-libvo-aacenc
+                        --enable-libass --enable-ffplay --enable-libspeex --enable-libschroedinger
+                        --enable-libfdk-aac --enable-openssl --enable-libopus
 
 While in theory, in my opinion, this should be enough!
 
